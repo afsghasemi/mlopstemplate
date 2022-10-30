@@ -3,7 +3,10 @@ on:
     branches:
       - main
 jobs:
+  job1:
+    name: echo on push
+    runs-on: ubuntu-latest
     steps:
-      - name: Echo job
+    - name: Echo on merge
       run: |
         echo "Will add code checks here in next challenge"
