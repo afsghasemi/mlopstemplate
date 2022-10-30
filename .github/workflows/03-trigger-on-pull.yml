@@ -1,0 +1,9 @@
+on:
+  push:
+    branches:
+      - main
+jobs:
+  steps:
+      - name: Echo job
+      run: |
+        echo "Will add code checks here in next challenge"
