@@ -42,7 +42,7 @@ def split_data(df):
                'DiastolicBloodPressure', 'TricepsThickness',
                'SerumInsulin', 'BMI',
                'DiabetesPedigree','Age']].values,
-            df['Diabetic'].values
+    df['Diabetic'].values
     X_train, X_test, y_train, y_test = train_test_split(X,
                                                         y,
                                                         test_size=0.2,
