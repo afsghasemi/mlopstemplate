@@ -3,7 +3,7 @@ on:
     branches:
       - main
 jobs:
-  steps:
+    steps:
       - name: Echo job
       run: |
         echo "Will add code checks here in next challenge"
